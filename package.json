@@ -1,6 +1,6 @@
 {
   "name": "@whiskeysockets/baileys",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "WhatsApp Web API Library",
   "keywords": [
     "sakyleys",
@@ -55,6 +55,7 @@
     "cache-manager": "^5.7.6",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
+    "fflate": "^0.8.3",
     "gradient-string": "^2.0.2",
     "libphonenumber-js": "^1.10.20",
     "libsignal": "npm:@levvsync/libsignal",

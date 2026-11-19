@@ -22,6 +22,16 @@
 
 ---
 
+## 🧾 Status Versi
+
+| Komponen | Versi |
+|---|---|
+| WhatsApp (`WAProto.proto`) | `2.3000.1052536159` |
+| Node.js minimum | `20.0.0` |
+| Package | `@whiskeysockets/baileys@2.1.0` |
+
+---
+
 ## ✨ Fitur Utama
 
 - 🚀 **Modern & Cepat** – Dibangun dengan TypeScript dan Node.js 20+.
@@ -996,6 +1006,21 @@ sock.ws.on('CB:edge_routing,id:abcd,routing_info', (node) => { })
 - **Penanganan Error** – Bungkus panggilan socket dengan try-catch.
 - **Batas Rate** – Hormati batas WhatsApp untuk menghindari ban.
 - **Keamanan** – Jangan bagikan kredensial auth; gunakan variabel lingkungan.
+
+---
+
+## 🔄 Pembaruan Terbaru
+
+- **WAProto** diperbarui ke `2.3000.1052536159`. Termasuk message dan enum baru untuk fitur AI, bisnis, backup, wallpaper, panggilan, dan enkripsi multi-device.
+- Message `BotAvatarMetadata` dihapus dari proto.
+- Field `aIRichResponseContentItem` diganti `aiRichResponseContentItem`.
+- `fflate` ditambahkan sebagai dependensi.
+
+Untuk generate ulang file proto:
+
+```bash
+yarn gen:protobuf
+```
 
 ---
 
