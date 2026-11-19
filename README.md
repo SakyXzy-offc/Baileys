@@ -28,7 +28,7 @@
 |---|---|
 | WhatsApp (`WAProto.proto`) | `2.3000.1052536159` |
 | Node.js minimum | `20.0.0` |
-| Package | `@whiskeysockets/baileys@2.0.5` |
+| Package | `@whiskeysockets/baileys@2.1.0` |
 
 ---
 
